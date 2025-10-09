@@ -6,6 +6,9 @@ public class ejercicio4 {
         double y;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println();
+        System.out.print("Introduzca el primer número: ");
+        x = scanner.nextDouble()
+        System.out.println("Introduce el segundo número: ");
+        y = scanner.nextDouble()
     }
 }
