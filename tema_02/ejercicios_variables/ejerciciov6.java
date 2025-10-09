@@ -7,7 +7,7 @@ public class ejerciciov6 {
         double total = base + iva;
 
         System.out.println("Base imponible: " + base);
-        System.out.println("IVA: " + iva);
+        System.out.printf("IVA: %.2f\n", iva);
         System.out.println("-------------");
         System.out.println("Total: " + total);
     }

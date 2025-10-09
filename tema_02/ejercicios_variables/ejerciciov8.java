@@ -8,8 +8,7 @@ public class ejerciciov8 {
         char letra4 = 'a';
         char letra5 = 't';
         char letra6 = 'o';
-        String palabra = "zapato";
 
-        System.out.println("Las letras de la palabra " + palabra + " son: " + letra1 + " " + letra2 + " " + letra3 + " " + letra4 + " " + letra5 + " " + letra6 + " ");
+        System.out.println("" + letra1 + letra2 + letra3 + letra4 + letra5 + letra6);
     }
 }

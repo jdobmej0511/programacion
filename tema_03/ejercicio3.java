@@ -1,0 +1,15 @@
+package tema_03;
+
+public class ejercicio3 {
+    public static void main(String[] args) {
+        double euros; 
+        double pesetas; 
+
+        System.out.print("Introduzca la cantidad de euros que quiera convertir: ");
+        pesetas = Double.parseDouble(System.console().readLine());
+        
+        euros = pesetas / 166.33;
+
+        System.out.printf("%.2f pesetas son %.2f pesetas.%n", pesetas, euros);
+    }
+}

@@ -26,7 +26,9 @@ public class variables {
 
         System.out.println(letra1);
         System.out.println("La primera letra es: " + letra1);
-        System.out.printf("la primera letra es: %c\n", letra1);
+        System.out.printf("la primera letra es: %c\n", letra2);
+        System.out.printf("la primera letra es: %c\n", letra3);
+        System.out.printf("la primera letra es: %c\n", letra4);
 
         //Ejemplo 4
         numero++ ;

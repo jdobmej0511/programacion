@@ -4,8 +4,8 @@ public class ejerciciov7 {
     public static void main(String[] args) {
         char primeraLetra = 'a';
         char ultimaLetra = 'z';
-        String abecedario = "a b c d e f g h i j k l m n ñ o p q r s t u v w q y z";
+        String abecedario = "abecedario";
 
-        System.out.println("La primera letra del abecedario es: " + primeraLetra + ", la última letra es: " + ultimaLetra + " y el abecedario completo es: " + abecedario);
+        System.out.println("" + primeraLetra + ultimaLetra + abecedario);
     }
 }
