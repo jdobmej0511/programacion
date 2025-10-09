@@ -9,6 +9,6 @@ public class ejercicio4 {
         System.out.print("Introduzca el primer número: ");
         x = scanner.nextDouble()
         System.out.println("Introduce el segundo número: ");
-        y = scanner.nextDouble()dfdfdf
+        y = scanner.nextDouble()
     }
 }
