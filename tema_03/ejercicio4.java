@@ -1,23 +1,24 @@
 package tema_03;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class ejercicio4 {
     public static void main(String[] args) {
-        double x;
-        double y;
+        float x;
+        float y;
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.ENGLISH);
         System.out.print("Introduzca el primer número: ");
-        x = scanner.nextDouble();
+        x = scanner.nextFloat();
         System.out.print("Introduce el segundo número: ");
-        y = scanner.nextDouble();
+        y = scanner.nextFloat();
 
-        System.out.println("x = " + x);
-        System.out.println("y = " + y);
-        System.out.println("x + y = " + (x+y));
-        System.out.println("x - y = " + (x-y));
-        System.out.println("x / y = " + (x/y));
-        System.out.println("x * y = " + (x*y));
+        System.out.printf("x = %.1f\n" , x);
+        System.out.printf("y = %.1f\n" , y);
+        System.out.printf("x + y = %.1f\n" , (x+y));
+        System.out.printf("x - y = %.1f\n" , (x-y));
+        System.out.printf("x / y = %.1f\n" , (x/y));
+        System.out.printf("x * y = %.1f\n" , (x*y));
     }
 }
