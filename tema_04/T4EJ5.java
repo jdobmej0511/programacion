@@ -1,4 +1,4 @@
-package tema_04;
+
 
 public class T4EJ5 {
     public static void main(String[] args) {

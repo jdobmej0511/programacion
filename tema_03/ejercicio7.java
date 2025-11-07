@@ -8,10 +8,10 @@ public class ejercicio7 {
         double iva;
         double total;
 
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Introduzca la base imponible (precio del articulo sin IVA): ");
-        base = scanner.nextDouble();
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Introduzca la base imponible (precio del articulo sin IVA): ");
+            base = scanner.nextDouble();
+        }
 
         System.out.println("Base imponible  " + base + "$");
         

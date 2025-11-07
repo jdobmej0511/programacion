@@ -8,12 +8,12 @@ public class ejercicio4 {
         float x;
         float y;
 
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.ENGLISH);
-        System.out.print("Introduzca el primer número: ");
-        x = scanner.nextFloat();
-        System.out.print("Introduce el segundo número: ");
-        y = scanner.nextFloat();
-
+        try (Scanner scanner = new Scanner(System.in).useLocale(Locale.ENGLISH)) {
+            System.out.print("Introduzca el primer número: ");
+            x = scanner.nextFloat();
+            System.out.print("Introduce el segundo número: ");
+            y = scanner.nextFloat();
+        }
         System.out.printf("x = %.1f\n" , x);
         System.out.printf("y = %.1f\n" , y);
         System.out.printf("x + y = %.1f\n" , (x+y));
