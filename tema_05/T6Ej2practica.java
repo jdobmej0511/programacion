@@ -5,7 +5,7 @@ public class T5Ej2practica {
          int total = 0;
          int suma = 0;
 
-         System.out.println("Introduce números  y pulse ENTER. Para acabar, introduce un número negativo");
+         System.out.print("Introduce números  y pulse ENTER. Para acabar, introduce un número negativo");
          numero = Integer.parseInt(System.console().readLine());
 
         do {
