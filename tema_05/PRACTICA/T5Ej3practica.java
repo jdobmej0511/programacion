@@ -1,3 +1,4 @@
+package PRACTICA;
 
 public class T5Ej3practica {
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
+package tema_06;
 
 
-public class T5Ej2 {
+public class T6Ej2 {
     public static void main(String[] args) {
       
       String palo = "";

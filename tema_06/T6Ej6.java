@@ -1,3 +1,4 @@
+package tema_06;
 
 
 public class T6Ej6 {

@@ -11,7 +11,7 @@ public class T5Ej4 {
 
         do{
             i++;
-            System.out.print("Introduce la clave de la caja fuerte: ");
+            System.out.print("Introduce la clave de la caja fuerte: ");            
             intento = Integer.parseInt(System.console().readLine());
 
             if (intento == numero) {
@@ -20,9 +20,9 @@ public class T5Ej4 {
                 System.out.println("La clave es incorrecta");
             }
 
-        }while(i<4 || acierto == true);
+        }while(i<4 && acierto == false);
 
-        if (i == 4) {
+        if (i == 4 && acierto == false) {
             System.out.println("Lo siento, ha agotado las 4 oportunidades");
         }
 
