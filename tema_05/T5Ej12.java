@@ -3,6 +3,7 @@ public class T5Ej12 {
         int base;
         int exponente;
         int solucion = 0;
+        int solucion1 = 0;
         int mult = 1;
 
         System.out.print("Introduzca la base: ");
@@ -13,7 +14,7 @@ public class T5Ej12 {
 
         for(int i = 0; i < exponente; i++){
             solucion *= base * mult;
-            solucion1 = base * solucion
+            solucion1 = base * solucion;
 
             System.out.printf("%d^%d = %d\n",base, mult, solucion);
             
