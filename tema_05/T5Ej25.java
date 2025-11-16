@@ -2,7 +2,7 @@ public class T5Ej25 {
     public static void main(String[] args) {
         
         int numero;
-        int factorial;
+        int factorial = 0;
 
         System.out.print("por favor, introduzca un número entero: ");
         numero = Integer.parseInt(System.console().readLine());
