@@ -86,7 +86,7 @@ public class T5Ej27 {
                 break;
         }
 
-          System.out.print("Entre las " + primeraHora + ":00h del " + primerDia);
+   System.out.print("Entre las " + primeraHora + ":00h del " + primerDia);
     System.out.print(" y las " + segundaHora + ":00h del " + segundoDia);
     System.out.println(" hay " + (((numSegundoDia * 24) + segundaHora) - ((numPrimerDia * 24) + primeraHora)) + " hora/s.");
 

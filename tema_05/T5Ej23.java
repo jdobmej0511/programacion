@@ -23,7 +23,7 @@ public class T5Ej23 {
 
       numero = numeroIntroducido;
       
-      numero = numero * 10 + 1;
+      numero = numero * 10 + 1; //
       
       
       if (numero == 0) {
