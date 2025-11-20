@@ -1,4 +1,4 @@
-package Ejercicios;
+package Ejercicios_print;
 
 public class ejercicio1 {
 
