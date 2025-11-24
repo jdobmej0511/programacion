@@ -9,22 +9,29 @@ public class T8Ej1 {
 
         Scanner sc = new Scanner(System.in);
 
-
         System.out.print("Introduce un número: ");
         n = sc.nextInt();
 
-       if (esCapicua(n) == true) {
+
+        //Comprobamos si es capicuo
+        if (esCapicua(n)) {
             System.out.println("Es capicua");
-       } else{
+        } else {
             System.out.println("No es capicua");
-       }
+        }
+
+        if (esPrimo(n)) {
+            System.out.println("Es primo");
+        } else {
+            System.out.println("No es primo");
+        }
+
+        sc.close();
     }
 
     public static boolean esCapicua(int numeroCapicuo) {
-        int original = 0;
+        int original = numeroCapicuo;
         int invertido = 0;
-
-        original = numeroCapicuo;
 
         while (numeroCapicuo > 0) {
             invertido = invertido * 10 + (numeroCapicuo % 10);
@@ -35,13 +42,16 @@ public class T8Ej1 {
     }
 
     public static boolean esPrimo(int numeroPrimo) {
-        int contador;
-
-        while (numeroPrimo && (contador != numeroPrimo)) {
-            
+        if (numeroPrimo <= 1) {
+            return false;
         }
 
-        return (numeroPrimo %2 != 0);
+        for (int i = 2; i <= Math.sqrt(numeroPrimo); i++) {
+            if (numeroPrimo % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
     }
-    
 }
