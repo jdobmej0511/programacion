@@ -11,50 +11,50 @@ public class Graphify {
     public static final String PURPLE_BACKGROUND = "\033[45m";
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("GRAPHIFY");
+            System.out.println("===================");
 
-        System.out.println("GRAPHIFY");
-        System.out.println("===================");
+            try {
+                System.out.print("Introduce el valor mínimo del rango: ");
+                int min = sc.nextInt();
+                System.out.print("Introduce el valor máximo del rango: ");
+                int max = sc.nextInt();
 
-        try {
-            System.out.print("Introduce el valor mínimo del rango: ");
-            int min = sc.nextInt();
-            System.out.print("Introduce el valor máximo del rango: ");
-            int max = sc.nextInt();
+                if (min < 0 || max < 0) {
+                    System.out.println("ERROR: los valores del rango deben ser mayores o iguales a cero.");
+                    return;
+                }
 
-            if (min < 0 || max < 0) {
-                System.out.println("ERROR: los valores del rango deben ser mayores o iguales a cero.");
-                return;
+                // Generar número aleatorio
+                Random rand = new Random();
+                int numero = rand.nextInt(max - min + 1) + min;
+
+                System.out.print("Dibujo la gráfica en blanco y negro o en color (BIC) : ");
+                String opcion = sc.next().toUpperCase();
+
+                // Mostrar número generado
+                System.out.println("Número generado: " + numero);
+
+                // Convertir número a array de dígitos
+                String numStr = String.valueOf(numero);
+                int[] digitos = new int[numStr.length()];
+                int maxDigito = 0;
+                for (int i = 0; i < numStr.length(); i++) {
+                    digitos[i] = Character.getNumericValue(numStr.charAt(i));
+                    if (digitos[i] > maxDigito) maxDigito = digitos[i];
+                }
+
+                // Dibujar gráfico
+                if (opcion.equals("C")) {
+                    dibujarColor(digitos, maxDigito);
+                } else {
+                    dibujarBN(digitos, maxDigito);
+                }
+
+            } catch (Exception e) {
+                System.out.println("ERROR: Entrada inválida.");
             }
-
-            // Generar número aleatorio
-            Random rand = new Random();
-            int numero = rand.nextInt(max - min + 1) + min;
-
-            System.out.print("Dibujo la gráfica en blanco y negro o en color (BIC) : ");
-            String opcion = sc.next().toUpperCase();
-
-            // Mostrar número generado
-            System.out.println("Número generado: " + numero);
-
-            // Convertir número a array de dígitos
-            String numStr = String.valueOf(numero);
-            int[] digitos = new int[numStr.length()];
-            int maxDigito = 0;
-            for (int i = 0; i < numStr.length(); i++) {
-                digitos[i] = Character.getNumericValue(numStr.charAt(i));
-                if (digitos[i] > maxDigito) maxDigito = digitos[i];
-            }
-
-            // Dibujar gráfico
-            if (opcion.equals("C")) {
-                dibujarColor(digitos, maxDigito);
-            } else {
-                dibujarBN(digitos, maxDigito);
-            }
-
-        } catch (Exception e) {
-            System.out.println("ERROR: Entrada inválida.");
         }
     }
 

@@ -19,11 +19,13 @@ public class T5Ej21 {
         
         
         for (i = 1; i < altura; i++) {
-          System.out.print(i);
+   
+          System.out.print(i % 10);
         }
         
         for (i = altura; i > 0; i--) {
-          System.out.print(i);
+      
+          System.out.print(i % 10);
         }
         
         System.out.println();
