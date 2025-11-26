@@ -8,8 +8,17 @@ public class Ej29 {
         System.out.print("Introduce un numero entero positivo: ");
         num = Integer.parseInt(System.console().readLine());
 
-        for (int i = 0; i < ; i++) {
-            
+  
+        System.out.println(invertir(num));
+
+        System.out.println(digito(invertir(num)));
+
+        System.out.println(esPar(digito(invertir(num))));
+
+        for (int i = 0; i < invertir(num); i++) {
+            if (condition) {
+                
+            }
         }
 
     }
@@ -41,5 +50,9 @@ public class Ej29 {
         return digito;
     }
 
-    public static 
+    public static boolean esPar(int digito){
+       
+        return digito % 2 == 0;
+        
+    }
 }

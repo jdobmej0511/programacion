@@ -9,6 +9,27 @@
             "name": "Ej29",
             "request": "launch",
             "mainClass": "REPASO_EXAMEN.Ej29",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "EjercicioPiramide",
+            "request": "launch",
+            "mainClass": "Practica_examen.EjercicioPiramide",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "AnimacionPiramideHueca",
+            "request": "launch",
+            "mainClass": "Practica_examen.AnimacionPiramideHueca",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "Ej29",
+            "request": "launch",
+            "mainClass": "REPASO_EXAMEN.Ej29",
             "projectName": "programacion_b7ae0ba2"
         },
         {
