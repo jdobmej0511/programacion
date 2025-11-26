@@ -4,7 +4,7 @@ public class AnimacionPiramideHueca {
     
     public static void main(String[] args) throws InterruptedException {
         
-        int tamano = 20;  
+        int tamano = 10;  
         final int MINIMO = 3;
         final int MAXIMO = tamano;
 
@@ -43,7 +43,7 @@ public class AnimacionPiramideHueca {
 
         for (int fila = 0; fila <= tamano; fila++) {
         
-            for (int espacios = 21; espacios > fila; espacios--) {
+            for (int espacios = 11; espacios > fila; espacios--) {
                 System.out.print(" ");
             }
 
