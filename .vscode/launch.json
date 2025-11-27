@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "T5Ej23",
+            "request": "launch",
+            "mainClass": "T5Ej23",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "ModeloExamen",
+            "request": "launch",
+            "mainClass": "EXAMENPAPULOPUZNO.ModeloExamen",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "RelojDigital",
+            "request": "launch",
+            "mainClass": "EXAMENPAPULOPUZNO.RelojDigital",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "Reloj",
+            "request": "launch",
+            "mainClass": "EXAMENPAPULOPUZNO.Reloj",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "Ej29",
+            "request": "launch",
+            "mainClass": "REPASO_EXAMEN.Ej29",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "EjercicioPiramide",
+            "request": "launch",
+            "mainClass": "Practica_examen.EjercicioPiramide",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "AnimacionPiramideHueca",
+            "request": "launch",
+            "mainClass": "Practica_examen.AnimacionPiramideHueca",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "Ej29",
+            "request": "launch",
+            "mainClass": "REPASO_EXAMEN.Ej29",
+            "projectName": "programacion_b7ae0ba2"
+        },
+        {
+            "type": "java",
+            "name": "Ej26",
+            "request": "launch",
+            "mainClass": "REPASO_EXAMEN.Ej26",
+            "projectName": "programacion_b7ae0ba2"
+        },
+        {
+            "type": "java",
+            "name": "Ej20",
+            "request": "launch",
+            "mainClass": "REPASO_EXAMEN.Ej20",
+            "projectName": "programacion_b7ae0ba2"
+        },
+        {
+            "type": "java",
+            "name": "Ej13",
+            "request": "launch",
+            "mainClass": "REPASO_EXAMEN.Ej13",
+            "projectName": "programacion_b7ae0ba2"
+        },
+        {
+            "type": "java",
+            "name": "Ej14",
+            "request": "launch",
+            "mainClass": "REPASO_EXAMEN.Ej14",
+            "projectName": "programacion_b7ae0ba2"
+        },
+        {
+            "type": "java",
+            "name": "EjercicioPiramide",
+            "request": "launch",
+            "mainClass": "Practica_examen.EjercicioPiramide",
+            "projectName": "programacion_b7ae0ba2"
+        },
+        {
+            "type": "java",
+            "name": "AnimacionPiramideHueca",
+            "request": "launch",
+            "mainClass": "Practica_examen.AnimacionPiramideHueca",
+            "projectName": "programacion_b7ae0ba2"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

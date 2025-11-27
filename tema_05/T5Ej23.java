@@ -22,13 +22,14 @@ public class T5Ej23 {
 
       numero = numeroIntroducido;
       
-      numero = numero * 10 + 1; //
+      numero = numero * 10 + 1; 
       
       
       if (numero == 0) {
+
       }
       
-      while (numero > 0) {
+      while (numero > 0) { 
         volteado = (volteado * 10) + (numero % 10);
         numero /= 10;
       } 

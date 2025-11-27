@@ -1,8 +1,10 @@
 package EXAMENPAPULOPUZNO;
 
+import libreria.java;
+
 import java.time.LocalTime;
 
-public class Reloj {
+public class RelojDigital {
 
     public static void main(String[] args) throws Exception {
 
@@ -70,31 +72,68 @@ public class Reloj {
                 inferiorDerecha = true;
                 break;
             case 2:
-                superior = true; superiroDerecha = true; central = true; inferiorIzquierda = true; inferior = true;
+                superior = true; 
+                superiroDerecha = true; 
+                central = true; 
+                inferiorIzquierda = true; 
+                inferior = true;
                 break;
             case 3:
-                superior = true; superiroDerecha = true; central = true; inferiorDerecha = true; inferior = true;
+                superior = true; 
+                superiroDerecha = true; 
+                central = true; 
+                inferiorDerecha = true; 
+                inferior = true;
                 break;
             case 4:
-                superiroDerecha = true; superiorIzquierda = true; central = true; inferiorDerecha = true;
+                superiroDerecha = true; 
+                superiorIzquierda = true; 
+                central = true; 
+                inferiorDerecha = true;
                 break;
             case 5:
-                superior = true; superiorIzquierda = true; central = true; inferiorDerecha = true; inferior = true;
+                superior = true; 
+                superiorIzquierda = true; 
+                central = true; 
+                inferiorDerecha = true; 
+                inferior = true;
                 break;
             case 6:
-                superior = true; superiorIzquierda = true; central = true; inferiorIzquierda = true; inferiorDerecha = true; inferior = true;
+                superior = true; 
+                superiorIzquierda = true; 
+                central = true; 
+                inferiorIzquierda = true; 
+                inferiorDerecha = true; 
+                inferior = true;
                 break;
             case 7:
-                superior = true; superiroDerecha = true; inferiorDerecha = true;
+                superior = true; 
+                superiroDerecha = true; 
+                inferiorDerecha = true;
                 break;
             case 8:
-                superior = true; superiroDerecha = true; superiorIzquierda = true; central = true; inferiorIzquierda = true; inferiorDerecha = true; inferior = true;
+                superior = true; 
+                superiroDerecha = true; 
+                superiorIzquierda = true; 
+                central = true; 
+                inferiorIzquierda = true; 
+                inferiorDerecha = true; 
+                inferior = true;
                 break;
             case 9:
-                superior = true; superiroDerecha = true; superiorIzquierda = true; central = true; inferiorDerecha = true;
+                superior = true; 
+                superiroDerecha = true; 
+                superiorIzquierda = true; 
+                central = true; 
+                inferiorDerecha = true;
                 break;
             case 0:
-                superior = true; superiroDerecha = true; superiorIzquierda = true; inferiorIzquierda = true; inferiorDerecha = true; inferior = true;
+                superior = true; 
+                superiroDerecha = true; 
+                superiorIzquierda = true; 
+                inferiorIzquierda = true; 
+                inferiorDerecha = true; 
+                inferior = true;
                 break;
         }
 
