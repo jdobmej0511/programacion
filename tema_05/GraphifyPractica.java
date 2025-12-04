@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Graphify {
+public class GraphifyPractica {
 
     // Constantes para colores ANSI
     public static final String RESET = "\033[0m";

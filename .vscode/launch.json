@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Graphify",
+            "request": "launch",
+            "mainClass": "Graphify",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
             "name": "T5Ej23",
             "request": "launch",
             "mainClass": "T5Ej23",

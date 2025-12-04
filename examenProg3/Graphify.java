@@ -39,8 +39,8 @@ class Graphify {
 
         long minimo = 0;
         long maximo = 0;
-        long maxTemporal = 0;
-        long minTemporal = 0;
+        // long maxTemporal = 0;
+        // long minTemporal = 0;
         long aleatorio = 0;
         long girado = 0;
         long mayorNum = 0;
@@ -60,11 +60,11 @@ class Graphify {
 
             System.out.print("Introduce el valor mínimo del rango: ");
             minimo = sc.nextLong();
-            minTemporal = minimo;
+            // minTemporal = minimo;
 
             System.out.print("Introduce el valor máximo del rango: ");
             maximo = sc.nextLong();
-            maxTemporal = maximo;
+            // maxTemporal = maximo;
 
             // todas las operaciones
 

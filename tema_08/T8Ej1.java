@@ -12,20 +12,10 @@ public class T8Ej1 {
         System.out.print("Introduce un número: ");
         n = sc.nextInt();
 
-
-        //Comprobamos si es capicuo
-        if (esCapicua(n)) {
-            System.out.println("Es capicua");
-        } else {
-            System.out.println("No es capicua");
-        }
-
-        if (esPrimo(n)) {
-            System.out.println("Es primo");
-        } else {
-            System.out.println("No es primo");
-        }
-
+        System.out.println(esCapicua(n));
+        System.out.println(esPrimo(n));
+        
+       
         sc.close();
     }
 
