@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExamenReloj",
+            "request": "launch",
+            "mainClass": "EXAMENPAPULOPUZNO.ExamenReloj",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
+            "name": "T5Ej47",
+            "request": "launch",
+            "mainClass": "T5Ej47",
+            "projectName": "programacion_5ff51239"
+        },
+        {
+            "type": "java",
             "name": "Graphify",
             "request": "launch",
             "mainClass": "Graphify",
